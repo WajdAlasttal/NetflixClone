@@ -1,0 +1,147 @@
+.netflix-img{
+    width: 12%;
+    padding-left: 3%;
+}
+.accounts{
+    height: 100vh;
+    background: #141414;  
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, transparent 80%, rgba(0, 0, 0, 1));
+}
+.accounts-body{
+    margin-top: 5%;
+}
+
+w-30{
+    width: 10%;
+}
+h1{
+    font-size: 43.5px;
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 1% 20% 0;
+}
+img{
+    border-radius: 3px;
+}
+.w-90{
+    width: 80%;
+}
+.all-profiles{
+    text-align: center;
+}
+.profile a{
+text-decoration: none;
+color:grey;
+margin: 0.6rem 0;
+}
+.manage-profiles{
+    margin-top: 7%;
+}
+.manage-profiles a{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: grey;
+}
+.btnn{
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 10px 20px;
+}
+@media only screen and (max-width : 429px){
+    .netflix-img{
+        width: 30%;
+        padding-left: 3%;
+    }
+    .accounts{
+        height: 100vh;
+        background: #000;  
+        background-image:none;
+    } 
+    h1{
+        font-size: 32px;
+        font-family: Helvetica, sans-serif;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1% 0% 0;
+    } 
+    ul:first-child{
+        margin-left: 10%;
+    }
+    .w-90{
+        width: 100%;
+    }
+    .all-profiles .profiles li{
+        width: 20%;
+        margin-right: 10%;
+        margin-bottom: 7%;
+    }
+    .manage-profiles{
+        margin-top: 10%;
+    }
+}
+@media only screen and (min-width : 500px) and (max-width : 1024px){
+    .accounts{
+        height: 120vh;
+        background: #000;  
+        background-image:none;
+    } 
+    .accounts-body{
+        margin-top: 3%;
+    }
+    h1{
+        font-size: 32px;
+        font-family: Helvetica, sans-serif;
+    }
+    ul{
+        padding: 1% 20% 0;
+    } 
+    .w-90{
+        width: 100%;
+    }
+    .all-profiles .profiles li{
+        width: 20%;
+        margin-right: 6%;
+    }
+    .manage-profiles{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (min-width : 500px) and (max-width : 1024px) and (orientation : portrait){
+    .netflix-img{
+        width: 25%;
+        padding-left: 3%;
+    }
+    .accounts{
+        height: 100vh;
+        background: #000;  
+        background-image:none;
+    } 
+    .accounts-body{
+        margin-top: 10%;
+    }
+    h1{
+        font-size: 32px;
+        font-family: Helvetica, sans-serif;
+    }
+    ul{
+        padding: 1% 10% 0;
+    } 
+    .w-90{
+        width: 100%;
+    }
+    .all-profiles .profiles li{
+        width: 20%;
+        margin-right: 6%;
+    }
+    .manage-profiles{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+}

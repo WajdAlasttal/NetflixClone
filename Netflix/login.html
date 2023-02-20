@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Netflix" />
+  <meta name="author" content="Wajd Alasttal" />
+  <title>Netflix</title>
+  <link rel="shortcut icon" href="images/nficon2016.ico" type="icon">
+  <!-- font awesome 6 -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- bootstrap 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/login-style.css">
+</head>
+
+<body>
+  <div class="login position-relative">
+    <div class="background-img">
+      <img src="images/PS-en-20220808-popsignuptwoweeks-perspective_alpha_website_large.jpg" class="w-100 h-100" />
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <img src="images/Netflix_Logo_PMS.png" alt="netflix logo" class="netflix-img" />
+    </nav>
+    <!-- login form -->
+    <div class="login-body">
+      <h1 class="header text-white fw-bold mb-4">Sign In</h1>
+      <form method="post" action="">
+        <div class="input-st mb-3 position-relative">
+          <input id="email" type="text" class="form-control" />
+          <label for="email" class="form-label">Email or phone number</label>
+        </div>
+        <div class="input-st mb-3 position-relative">
+          <input id="password" type="password" class="form-control" />
+          <label for="password" class="form-label">Password</label>
+        </div>
+        <a href="accounts.html" class="btn btn-primary mt-2 mb-2 text-white text-decoration-none">Sign In</a>
+        <div class="remember-help d-flex justify-content-between align-items-center">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label text-secondary" for="flexCheckChecked">
+              Remember me
+            </label>
+          </div>
+          <a href="#" class="text-secondary">Need help?</a>
+        </div>
+      </form>
+      <div class="new-netflix">
+        <div class="sign-up">
+          New to Netflix?
+          <a href="index.html">Sign up now.</a>
+        </div>
+        <div class="learn">
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          <a href="#">Learn more.</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer py-5 mt-4">
+      <div class="contact-us ps-4 ms-2 mb-4">
+        <a href="#">Questions? Contact us.</a>
+      </div>
+      <div class="links">
+        <ul class="d-flex flex-wrap">
+          <li class="link-items"><a href="#">FAQ</a></li>
+          <li class="link-items"><a href="#">Help Center</a></li>
+          <li class="link-items"><a href="#">Terms of Use</a></li>
+          <li class="link-items"><a href="#">Privacy</a></li>
+          <li class="link-items"><a href="#">Cookie Preferences</a></li>
+          <li class="link-items"><a href="#">Corporate Information</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="dropdown">
+          <button class="btn3 dropdown-toggle bg-black py-3 ps-3 pe-3 ms-4" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-globe pe-2"></i> English
+          </button>
+          <ul class="dropdown-menu bg-black border-1 border border-white">
+            <li><a class="dropdown-item " href="#">English</a></li>
+            <li><a class="dropdown-item " href="#">العربية</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- bootstrap 5 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
